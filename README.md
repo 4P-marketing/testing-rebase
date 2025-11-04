@@ -1,2 +1,2 @@
 # testing-rebase
-This repo is not meant to test rebasing
+That other repo is not meant to test rebasing
