@@ -36,14 +36,10 @@ Final note: I'm not a maintainer of the `test/test-repository` but even if I wer
 
 I would use this post for future reference because I'm 100% sure I will forget this protocol in one month :)
 
-**EXTRA QUESTION**
+**EXTRA INFO**
 
 What would be the difference if I were the maintainer of the `test/test-repository` with edit permissions to the `pr-branch`? Obviously I would not have to do a PR because I could push directly to the branch.
 
 So I assume that the difference is in step number 8 I would simply do:
 
 8. `git push forker branch-of-pr-branch`
-
-And it will get merged and directly appear in the PR 1234.
-
-Am I right?
