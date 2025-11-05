@@ -1,6 +1,6 @@
 https://www.reddit.com/r/git/comments/1op8bpe/
 
-I know that this is not strictly Git, but there are a couple of Git commands involved to achieve this
+### CONTEXT
 
 1. Let's say that I see a PR in a repository, and the PR is the number 1234.
 2. Say the repository is `https://github.com/test/test-repository`
@@ -30,13 +30,11 @@ This has been one of those things I never got right, and I always tried to avoid
 
 Final note: I'm not a maintainer of the `test/test-repository` but even if I were, I think I would f\*\*k it up with this protocol, because I'm doing some wrong command, but I'm not sure which one it is.
 
-**SOLUTION**
+### SOLUTION
 
-\- I sent this Reddit post to a colleague, and he told me that I was doing it correctly. The only missing part was after `Compare & pull request` the branch by default in the `forker/test-repository` repository was `main`. and I did not notice. I had to explicitly target the `pr-branch` and voila, PR to PR achieved.
+The only missing part was after `Compare & pull request` the branch by default in the `forker/test-repository` repository was `main`. and I did not notice. I had to explicitly target the `pr-branch` and voila, PR to PR achieved.
 
-I would use this post for future reference because I'm 100% sure I will forget this protocol in one month :)
-
-**EXTRA INFO**
+### EXTRA INFO
 
 What would be the difference if I were the maintainer of the `test/test-repository` with edit permissions to the `pr-branch`? Obviously I would not have to do a PR because I could push directly to the branch.
 
