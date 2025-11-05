@@ -24,10 +24,6 @@ This has been my course of action, which has not finished as expected:
 9. Now in GitHub I can go to [`https://github.com/forker/test-repository/`](https://github.com/forker/test-repository/) and a message is waiting there for a new PR with the button `Compare & pull Request`
 10. But if I check the files changed here, there are several thousand files from [`https://github.com/test/test-repository`](https://github.com/test/test-repository) not only my file with changes.
 
-At this point I can conclude I'm doing something wrong at some point. The main reason there are so many files, is because the `pr-branch` has been sitting for 3 years in the upstream repository, and it has had a couple of merges over this period of time. But still I was expecting just 1 commit and only the files I was changing, so basically I'm doing something wrong at some point.
-
-This has been one of those things I never got right, and I always tried to avoid just creating a brand new PR instead of a PR to the PR. But this time I would like to have it right.
-
 Final note: I'm not a maintainer of the `test/test-repository` but even if I were, I think I would f\*\*k it up with this protocol, because I'm doing some wrong command, but I'm not sure which one it is.
 
 ### SOLUTION
